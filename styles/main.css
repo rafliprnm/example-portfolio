@@ -49,20 +49,29 @@ body {
   color: white;
 }
 
+.nav-item a:hover {
+  color: black;
+  font-weight: bolder;
+}
+
+.nav-item:hover {
+  background-color: #0f7dd1;
+}
+
 .home {
   padding-top: 200px;
-  padding-bottom: 450px;
+  padding-bottom: 400px;
   height: 500px;
   margin-left: 40px;
   margin-right: 40px;
+  background-image: url("../images/background1.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 100%;
 }
 
 .home .btn {
   background-color: gray;
-}
-
-.home .btn:hover {
-  background-color: #0f7dd1;
 }
 
 .home a {
@@ -70,9 +79,18 @@ body {
   color: black;
 }
 
+.home .btn:hover {
+  background-color: #0f7dd1;
+  color: white;
+}
+
+.home a:hover {
+  color: white;
+}
+
 .about {
-  margin-top: 100px;
-  margin-bottom: 200px;
+  margin-top: 60px;
+  margin-bottom: 120px;
 }
 
 .about .line-about {
@@ -95,6 +113,11 @@ body {
 
 .about .card {
   background-color: gray;
+}
+
+.about .card:hover {
+  background-color: #0f7dd1;
+  color: white;
 }
 
 .about h2 {

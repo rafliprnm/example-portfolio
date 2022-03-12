@@ -28,8 +28,6 @@ body{
 
 }
 
-
-
 .avatar{
     width: 10rem;
     height: 10rem;
@@ -50,42 +48,49 @@ body{
     width: 150px;
     color: white;
     text-decoration: none;
-    
     a{
         text-decoration: none;
         color: white;
     }
-    
-    
+    a:hover{
+        color: black;
+        font-weight: bolder;
+    }
+}
+.nav-item:hover{
+    background-color: #0f7dd1;
 }
 
 .home{
     padding-top: 200px;
-    padding-bottom: 450px;
+    padding-bottom: 400px;
     height: 500px;
     margin-left: 40px;
     margin-right: 40px;
+    background-image: url("../images/background1.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%;
 
     .btn{
-        background-color:gray
-        
-        
-        
+        background-color:gray   
     }
-
-    .btn:hover{
-        background-color: #0f7dd1;
-    }
-
     a{
         text-decoration: none;
         color: black;
     }
+    .btn:hover{
+        background-color: #0f7dd1;
+        color: white;
+    }
+    a:hover{
+        color: white;
+    }
 }
 
 .about{
-    margin-top: 100px;
-    margin-bottom: 200px;
+    margin-top: 60px;
+    margin-bottom: 120px;
     .line-about{
         height: 2px;
     }
@@ -104,6 +109,10 @@ body{
 
     .card{
         background-color: gray;
+    }
+    .card:hover{
+        background-color: #0f7dd1;
+        color: white;
     }
     
     h2{
@@ -165,13 +174,10 @@ body{
 
 .portfolio{
     margin-bottom: 50px;
-    
-
     img{
         border-radius: 50px;
     }
 }
-
 .contact{
     .info{
         margin-left: 40px;
